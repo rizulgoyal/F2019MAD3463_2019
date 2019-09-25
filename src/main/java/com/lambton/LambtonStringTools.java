@@ -57,7 +57,8 @@ public class LambtonStringTools {
         else
         {
 
-            return null;
+            newSplit = "null";
+            return newSplit;
         }
 
 
