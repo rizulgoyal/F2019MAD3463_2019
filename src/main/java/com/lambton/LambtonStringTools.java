@@ -86,10 +86,12 @@ public class LambtonStringTools {
 
     public String replaceSubString(String s,String s1,String s2)
     {
+        // functions to sort all in lowercase
         s.toLowerCase();
         s1.toLowerCase();
         s2.toLowerCase();
         s.split(" ");
+
         String sNew = s.replaceAll(s1,s2);
         return sNew;
 
