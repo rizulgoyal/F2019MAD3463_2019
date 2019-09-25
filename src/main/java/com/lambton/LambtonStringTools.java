@@ -23,7 +23,8 @@ public class LambtonStringTools {
 
     public int binaryToDecimal (String s)
     {
-        int b = Integer.parseInt(s);
+        int b = Integer.parseInt(s,2);
+
         return b;
 
 
