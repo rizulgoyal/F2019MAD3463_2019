@@ -2,7 +2,17 @@ package com.lambton;
 
 public class LambtonStringTools {
 
-    public static void main(String[] args) {
+    public String reverse (String s)
+    {
+        int cnt = 0;
+        char [] charString = s.toCharArray();
+        char[] revString = new char[s.length()];
+        for(int i=charString.length-1;i>=0;i--)
+        {
 
+
+        }
     }
+
+
 }
