@@ -23,10 +23,12 @@ public class LambtonStringTools {
 
 
     public int binaryToDecimal(String s) {
-
+        // converting value to int
         int b = Integer.parseInt(s);
         int dec = 0;
         int p = 0;
+
+        // checking if value is o
         while (true) {
             if (b == 0) {
                 break;
