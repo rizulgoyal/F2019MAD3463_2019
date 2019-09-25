@@ -21,14 +21,20 @@ public class LambtonStringTools {
         return finalReverse;
     }
 
-    public int binaryToDecimal (String s)
-    {
-        int b = Integer.parseInt(s,2);
 
-        return b;
+    public int binaryToDecimal(String s) {
 
-
-
+        int b = Integer.parseInt(s);
+        int dec = 0;
+        int p = 0;
+        while (true) {
+            if (b == 0) {
+                break;
+            } else {
+                
+            }
+        }
+        return dec;
 
     }
 
