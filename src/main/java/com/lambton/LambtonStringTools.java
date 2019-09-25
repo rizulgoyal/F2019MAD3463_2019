@@ -31,7 +31,10 @@ public class LambtonStringTools {
             if (b == 0) {
                 break;
             } else {
-                
+                int tempN = b % 10;
+                dec += tempN * Math.pow(2, p);
+                b = b / 10;
+                p++;
             }
         }
         return dec;
