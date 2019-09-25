@@ -61,8 +61,17 @@ public class LambtonStringTools {
 
 
     public char mostFrequent(String s) {
-        // split the string with space 
+        // split the string with space
         String rSpace = s.replaceAll("\\s", "");
+        int highFrequency = 0;
+        char mostFrequencyChar = ' ';
+        for (int i = 0; i < rSpace.length(); i++) {
+            //formula to fetch  a character  and search  entire string to check how many times that char occurs
+            char x = rSpace.charAt(i);
+
+            int c = 0;
+
+        return mostFrequencyChar;
 
     }
 
