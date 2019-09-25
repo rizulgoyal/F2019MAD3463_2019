@@ -61,6 +61,7 @@ public class LambtonStringTools {
 
 
     public char mostFrequent(String s) {
+        // split the string with space 
         String rSpace = s.replaceAll("\\s", "");
 
     }
