@@ -43,5 +43,14 @@ public class LambtonStringTools {
 
     }
 
+    public String initials(String s)
+    {
+        String[] splited = s.split("\\s+");
+
+        String newSplit = "";
+
+
+    }
+
 
 }
