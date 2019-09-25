@@ -74,7 +74,10 @@ public class LambtonStringTools {
             for (int j = rSpace.indexOf(x); j != -1; j = rSpace.indexOf(x, j + 1)) {
                 c++;
             }
-            
+            if (c > highFrequency) {
+                highFrequency = c;
+                mostFrequencyChar = x;
+            }
         }
 
         return mostFrequencyChar;
