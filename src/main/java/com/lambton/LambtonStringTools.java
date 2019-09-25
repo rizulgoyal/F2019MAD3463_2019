@@ -43,26 +43,31 @@ public class LambtonStringTools {
 
     }
 
-    public String initials(String s)
-    {
+    public String initials(String s) {
         String[] splited = s.split("\\s+");
 
         String newSplit = "";
 
-        if(splited.length == 3)
-        {
-            newSplit = splited[0].substring(0,1).toUpperCase()+". "+splited[1].substring(0,1).toUpperCase()+". "+splited[2].substring(0,1).toUpperCase() + splited[2].substring(1).toLowerCase();
+        if (splited.length == 3) {
+            newSplit = splited[0].substring(0, 1).toUpperCase() + ". " + splited[1].substring(0, 1).toUpperCase() + ". " + splited[2].substring(0, 1).toUpperCase() + splited[2].substring(1).toLowerCase();
             return newSplit;
-        }
-        else
-        {
+        } else {
 
             newSplit = "null";
             return newSplit;
         }
 
+    }
+
+
+    public char mostFrequent(String s) {
+        String rSpace = s.replaceAll("\\s", "");
+
+    }
 
     }
 
 
-}
+
+
+
