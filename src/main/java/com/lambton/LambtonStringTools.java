@@ -15,7 +15,7 @@ public class LambtonStringTools {
         }
         String finalReverse;
         finalReverse = new String(revString);
-        
+
         //return is necessary becuase our function return type is string
 
         return finalReverse;
@@ -23,6 +23,10 @@ public class LambtonStringTools {
 
     public int binaryToDecimal (String s)
     {
+        int b = Integer.parseInt(s);
+        return b;
+
+
 
 
     }

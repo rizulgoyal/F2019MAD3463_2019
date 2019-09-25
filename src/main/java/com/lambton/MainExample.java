@@ -7,6 +7,7 @@ public class MainExample {
 
         LambtonStringTools l1 = new LambtonStringTools();
         System.out.println(l1.reverse("Lambton"));
+        System.out.println(l1.binaryToDecimal("101101"));
 
 
 
