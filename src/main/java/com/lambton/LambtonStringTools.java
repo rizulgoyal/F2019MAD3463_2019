@@ -9,9 +9,18 @@ public class LambtonStringTools {
         char[] revString = new char[s.length()];
         for(int i=charString.length-1;i>=0;i--)
         {
-
+            revString[cnt++]=charString[i];
 
         }
+        String finalReverse;
+        finalReverse = new String(revString);
+        return finalReverse;
+    }
+
+    public int binaryToDecimal (String s)
+    {
+
+
     }
 
 
