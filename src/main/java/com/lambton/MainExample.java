@@ -10,6 +10,7 @@ public class MainExample {
         System.out.println(l1.binaryToDecimal("01101010011"));
         System.out.println(l1.initials("jaMeS tIyhda kIrk"));
         System.out.println(l1.mostFrequent("jkfnnrqiuyfcndwciuqew"));
+        System.out.println(l1.replaceSubString("The Lambton Toronto","The","That"));
 
 
 

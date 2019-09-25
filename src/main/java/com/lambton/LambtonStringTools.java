@@ -89,6 +89,9 @@ public class LambtonStringTools {
         s.toLowerCase();
         s1.toLowerCase();
         s2.toLowerCase();
+        s.split(" ");
+        String sNew = s.replaceAll(s1,s2);
+        return sNew;
 
 
     }
