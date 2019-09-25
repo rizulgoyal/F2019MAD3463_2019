@@ -84,6 +84,15 @@ public class LambtonStringTools {
 
     }
 
+    public String replaceSubString(String s,String s1,String s2)
+    {
+        s.toLowerCase();
+        s1.toLowerCase();
+        s2.toLowerCase();
+
+
+    }
+
     }
 
 
